@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Material Icons');
+
+/*  GRID    */
+section {
+    margin-left: calc(50% - 315px);
+    margin-top: 5%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 15px;
+    
+}
+
+
+.opcao img {
+    padding: 20%;
+    align-items: center;
+}
+.opcaoModal img {
+    padding: 20%;
+    align-items: center;
+}
+
+.opcao {
+    background-color: rgb(42, 110, 255);
+    text-align: center;
+    cursor: pointer;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.opcao:hover {
+    background-color: rgb(110, 110, 255);
+    margin: -15px;
+    padding: 10%;
+    text-align: center;
+}
+
+#cad:hover {
+    background-color: rgb(72, 90, 255);
+    margin: -15px;
+}
+
+p {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    text-align: center;
+    font-size: 20px;
+}
+
+.opt-icon {
+    font-family: Material Icons;
+    margin-top: 12px;    
+    font-size: 115px;
+    color: whitesmoke;
+}
